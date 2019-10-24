@@ -5,7 +5,7 @@ var Schema = mongoose.Schema;
 
 module.exports = function () {
 
-    var db = mongoose.connect('mongodb://localhost:27017/social-auth-example');
+    var db = mongoose.connect("mongodb+srv://alex-admin:KSjjs1995124@c172-proj-akgcu.mongodb.net/test?retryWrites=true&w=majority");
 
     var UserSchema = new Schema({
         email: {
